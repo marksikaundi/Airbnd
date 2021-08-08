@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import { SearchIcon, MenuIcon, UserIcon, GlobeAltIcon } from '@heroicons/react/solid'
 
@@ -13,7 +14,7 @@ function Header() {
                 objectPosition="left"
             />
         </div>
-{/* icon missing npm install @heroicons/react */}
+
             {/* middle section */}
         <div className="flex items-center 
         md:border-2 rounded-full py-2 
